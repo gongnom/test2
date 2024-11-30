@@ -72,3 +72,13 @@ processed_data = [process_list(item) for item in input_data]
 # 엑셀로 저장
 save_to_excel(processed_data)
 
+
+"""
+import json
+
+with open("config.json", "r") as config_file:
+    config = json.load(config_file)
+
+email = config.get("email", "default@example.com")
+worksheetw.write(6 + num, 9, email)
+"""
